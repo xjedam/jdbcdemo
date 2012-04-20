@@ -11,4 +11,9 @@ public class CarManagerTest {
 	public void checkConnection(){
 		assertNotNull(carManager.getConnection());
 	}
+	
+	@Test
+	public void checkInsert(){
+		
+	}
 }
